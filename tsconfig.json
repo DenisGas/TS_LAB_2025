@@ -1,9 +1,17 @@
 {
   "compilerOptions": {
-    "target": "ES6",
-    "module": "commonjs",
+   "outDir": "SHABLON/dist",
+    "target": "ES2020",
+    
+    "module": "ESNext",        
+    "moduleResolution": "Node",
+    
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
     "strict": true,
-    "rootDir": "src",
-    "outDir": "SHABLON/dist"
-  }
+    "rootDir": "./src",
+    "sourceMap": true,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*"]
 }
