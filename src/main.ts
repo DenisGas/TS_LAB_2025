@@ -1,7 +1,8 @@
 import { addToCart, calculateTotal } from "./modules/cart";
 import { findProduct, filterByPrice } from "./modules/search";
 import type { Electronics } from "./types/Products/Electronics";
-import type { Books, Clothing } from "./types/Products/Clothing";
+import type { Clothing } from "./types/Products/Clothing";
+import type { Books } from "./types/Products/Books";
 import type { BaseProduct } from "./types/Products/BaseProduct";
 import type { CartItem } from "./types/CartItem";
 import { electronics, clothing, books } from "./mock/data";
@@ -16,7 +17,7 @@ function main() {
 
   // Тестування функцій
   const phone = findProduct(allProducts, 1);
-  const note = findProduct(allProducts, 2);
+  const laptop = findProduct(allProducts, 2);
   const nothing = findProduct(allProducts, -1);
   const t_shirt = findProduct(allProducts, 3);
 
@@ -28,7 +29,7 @@ function main() {
 
   delimeter();
 
-  addToCart(cart, note, 2);
+  addToCart(cart, laptop, 2);
   addToCart(cart, nothing, 2);
   addToCart(cart, t_shirt, 1);
 

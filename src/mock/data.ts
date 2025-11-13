@@ -1,4 +1,5 @@
-import type { Books, Clothing } from "../types/Products/Clothing";
+import type { Clothing } from "../types/Products/Clothing";
+import type { Books } from "../types/Products/Books";
 import type { Electronics } from "../types/Products/Electronics";
 
 // Створення тестових даних
