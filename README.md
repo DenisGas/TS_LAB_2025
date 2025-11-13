@@ -12,6 +12,26 @@
 
 Розробити базові функції для управління товарами в інтернет-магазині. Система повинна вміти працювати з різними типами товарів (електроніка, одяг, книги).
 
+## Build and run
+
+install modules(for builder)
+
+```bash
+npm ci
+```
+
+build:
+
+```bash
+npm run build
+```
+
+run:
+
+```bash
+npm run start
+```
+
 ## Preview
 
 ```js
