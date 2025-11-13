@@ -1,0 +1,27 @@
+{
+  "name": "ts_lab_2025",
+  "version": "1.0.0",
+  "description": "Лабараторні роботи з ts",
+  "main": "main.js",
+  "type": "module",
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/main.js",
+    "build": "node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DenisGas/TS_LAB_2025.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DenisGas/TS_LAB_2025/issues"
+  },
+  "homepage": "https://github.com/DenisGas/TS_LAB_2025#readme",
+  "devDependencies": {
+    "esbuild": "^0.27.0"
+  }
+}
